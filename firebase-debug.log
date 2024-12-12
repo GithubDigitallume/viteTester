@@ -1,0 +1,28 @@
+[debug] [2024-12-12T16:26:21.649Z] ----------------------------------------------------------------------
+[debug] [2024-12-12T16:26:21.651Z] Command:       /usr/local/share/nvm/versions/node/v20.17.0/bin/node /home/codespace/nvm/current/bin/firebase login
+[debug] [2024-12-12T16:26:21.651Z] CLI Version:   13.28.0
+[debug] [2024-12-12T16:26:21.651Z] Platform:      linux
+[debug] [2024-12-12T16:26:21.651Z] Node Version:  v20.17.0
+[debug] [2024-12-12T16:26:21.651Z] Time:          Thu Dec 12 2024 16:26:21 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-12-12T16:26:21.651Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2024-12-12T16:26:21.651Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-12-12T16:26:24.650Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-12-12T16:26:24.650Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"e775ef83-598b-4622-ac4c-3a59c37ae70d"}
+[debug] [2024-12-12T16:26:24.958Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-12-12T16:26:24.958Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"do8aXFI9l1oCOrg3bE9LObx8RsiqhCmZu7klNj1w9Jc"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    E775E
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=dV1DR9NnGs0XD5Q-HSFXykhAJjVd1F2hFteuIZb0taE&session=e775ef83-598b-4622-ac4c-3a59c37ae70d&attest=do8aXFI9l1oCOrg3bE9LObx8RsiqhCmZu7klNj1w9Jc
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
