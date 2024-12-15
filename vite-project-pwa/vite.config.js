@@ -6,6 +6,16 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [
     vue(),
-    VitePWA( {registerType: 'prompt'}),
+    VitePWA({
+              manifest :{
+                  name        : 'My Awesome App',
+                  short_name  : 'myApp',
+                  description : 'my Awesome App Description',
+                  theme_color : '#ffffff',
+              },
+              workbox : {
+                sourcemap:true
+              },
+            }),
   ],
 })

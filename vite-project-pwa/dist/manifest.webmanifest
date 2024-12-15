@@ -1,1 +1,1 @@
-{"name":"vite-project-pwa","short_name":"vite-project-pwa","start_url":"/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/"}
+{"name":"My Awesome App","short_name":"myApp","start_url":"/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/","description":"my Awesome App Description","theme_color":"#ffffff"}
