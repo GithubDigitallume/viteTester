@@ -1,4 +1,5 @@
 <script setup>
+
 import { registerSW } from 'virtual:pwa-register'
 import { ref }        from 'vue'
 
@@ -26,12 +27,10 @@ const updateSW = registerSW({
     },
 })
 
-
 async function close() {
   offlineReady.value = false
   needRefresh.value  = false
 }
-
 
 </script>
 
