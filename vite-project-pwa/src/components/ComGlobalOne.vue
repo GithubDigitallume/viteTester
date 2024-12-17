@@ -18,7 +18,7 @@
 <template>
   <div>
       <p>sdfsfd</p>
-      <p>ComGlobalOne version 1.0.3</p>
+      <p>ComGlobalOne version 1.0.27</p>
       <p>Message : {{ appStore.message}} sfsdgf</p>
       <p>Count   : {{ appStore.count  }} sdfsfd</p>
 

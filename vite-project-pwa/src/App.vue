@@ -14,12 +14,14 @@
   import HelloWorld    from './components/HelloWorld.vue'
   import ComGlobalOne  from './components/ComGlobalOne.vue'
   import ComGlobalTwo  from './components/ComGlobalTwo.vue'
-
+  import ReloadPrompt  from './components/ReloadPrompt.vue'
+  
 </script>
 
 <template>
 
   <div>
+    <ReloadPrompt />
     <ComGlobalOne />
     <ComGlobalTwo />
   </div>
